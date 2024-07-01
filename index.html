@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axf </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js.js"></script>
+    <script src="https://kit.fontawesome.com/15f0784fa3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="Axf.png" alt="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>App/Web developer</p>
+            <h1>Hi , I'm <span>Alex </span><br>from Italy</h1>
+        </div>
+
+    </header>
+    <!-------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Me-removebg.png" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Hello everybody , it's a pleasure to see you here on my portfolio <br> I got in touch with development during college , then for some years i had to suspend it for personal issue <br> I'm trying to make professional application affordable even for small buisiness or start-ups</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experiences')">Experiences</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab"id="Skills">
+                        <ul>
+                            <li><span>DB Management</span><br> Database impementation and Data analysis</li>
+                            <li><span>Web Development</span><br> Web app Developmen</li>
+                            <li><span>App Development</span><br> Android/IOS App development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content"id="Experiences">
+                        <ul>
+                            <li><span>Fcssp</span><br> Jr. Developer</li>
+                            <li><span>Problem Solver</span><br> Amazon torrazza (TRN1)</li>
+                                                        
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>Politacnico Torino</span><br> Not finished yet</li>
+                            <li><span>Liceo Einstein</span><br> Graduated in year 2012</li>
+                                                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------services---------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creation of fully customizable and responsive user interface to give your projects the visibility they deserve</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Bring your service on every device (android - ios) to make your buisiness grow faster</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Gestion</h2>
+                    <p>To organize and analyze every meaningfull data about your project </p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------portfolio------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/coding.jpg" alt="">
+                    <div class="layer">
+                        <h1>Desktop App</h1>
+                        <p>Various utility programs<br> for your Buisiness</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/phone.jpg" alt="">
+                    <div class="layer">
+                        <h1>Mobile App</h1>
+                        <p>Track and manage your buisiness<br> directly from your phone</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/database.jpg" alt="">
+                    <div class="layer">
+                        <h1>Database Management</h1>
+                        <p>Tools to help with Database <br> management and data analysis</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------contacts------------------->
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>fcsspdev@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>3479802711</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="4d4e4fde-6446-4373-adbf-7bc250fc9dd9">
+                        <input type="text" name="name" id="" placeholder="your name" required>
+                        <input type="text"name="email" placeholder="your email" required>
+                        <textarea name="message" id=""row="8" placeholder="your message" required></textarea>
+                        <button type="submit" class="sub-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foottext">
+        Copyright @ 2024 Axf
+        
+    </div>
+
+
+    
+</body>
+</html>
