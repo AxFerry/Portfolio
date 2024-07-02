@@ -334,6 +334,7 @@ form input, form textarea{
         flex-direction: column;
         top: 0;
         background-color: #262626;
+        align-text: center;
         right: 0;
         width: 200px;
         height: 100vh;
