@@ -1,5 +1,6 @@
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-content");
+let tablinks = document.getElementsByClassName("tab-links");
+let tabcontents = document.getElementsByClassName("tab-content");
+let sidebar = document.getElementById("sidemenu");
 
 function opentab(tabname){
     for (tablink of tablinks){
@@ -13,3 +14,11 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link")
     document.getElementById(tabname).classList.add("active-tab")
 }
+function openmenu(){
+    sidebar.style.display = "flex";
+    
+}
+function closemenu(){
+    sidebar.style.display = "none";
+}
+

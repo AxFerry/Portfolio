@@ -10,16 +10,17 @@
 </head>
 <body>
     <header id="header">
-        <nav>
+        <nav >
             <img src="Axf.png" alt="logo">
-            <ul>
+            <ul id="sidemenu">
+                <i id="closemenu" onclick="closemenu()" class="fa-solid fa-xmark"></i>
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contacts">Contacts</a></li>
-
             </ul>
+            <i id="openmenu" onclick="openmenu()" class="fa-solid fa-bars"></i>
         </nav>
         <div class="header-text">
             <p>App/Web developer</p>
@@ -48,6 +49,7 @@
                             <li><span>Web Development</span><br> Web app Developmen</li>
                             <li><span>App Development</span><br> Android/IOS App development</li>
                         </ul>
+                        
                     </div>
                     <div class="tab-content"id="Experiences">
                         <ul>

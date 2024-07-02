@@ -33,6 +33,9 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+#openmenu ,#closemenu{
+    display: none;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -317,6 +320,33 @@ form input, form textarea{
     .row{
         flex-direction: column;
     }
+    #openmenu  {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    nav ul {
+        position: absolute;
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        top: 0;
+        background-color: black;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        z-index: 2;
+
+    }
+    #closemenu  {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
     
 }
 
