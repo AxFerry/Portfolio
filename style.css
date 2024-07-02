@@ -333,7 +333,7 @@ form input, form textarea{
         justify-content: space-around;
         flex-direction: column;
         top: 0;
-        background-color: black;
+        background-color: #262626;
         right: 0;
         width: 200px;
         height: 100vh;
